@@ -5,7 +5,7 @@ import sys, os, sphinx_rtd_theme
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo', 'sphinx.ext.imgmath']
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'Openjet'
+project = 'OpenJet'
 copyright = u'2015-2017, OpenJet Team'
 man_pages = [
     ('index', 'openjet', u'Openjet Documentation',
