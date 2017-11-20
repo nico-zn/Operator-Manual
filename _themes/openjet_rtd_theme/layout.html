@@ -1,0 +1,17 @@
+{% extends 'sphinx_rtd_theme/layout.html' %}
+
+{% block extrahead %}
+    <link rel="stylesheet" type='text/css' href="{{ pathto('_static/css/openjet.css' , 1) }}" />
+{% endblock %}
+
+{% block sidebartitle %}
+    <div class="wy-side-nav-logo">
+        <a href="{{ pathto(master_doc) }}">
+            <img src="{{ pathto('_images/logo.png', 1) }}" />
+        </a>
+    </div>
+
+    <div class="wy-side-nav-search-box">
+        {% include "searchbox.html" %}
+    </div>
+{% endblock %}
