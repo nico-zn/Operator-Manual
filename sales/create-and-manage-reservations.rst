@@ -1,7 +1,7 @@
 Create and Manage Reservations
 ==============================
 
-All times showed in the reservations, documents and lists are Local Times.
+.. note:: All times showed in the reservations, documents and lists are Local Times.
 
 Reservation lists
 -----------------
@@ -12,48 +12,59 @@ The reservation lists display reservations according to the filter used on the l
 
 The first column displays all legs of the reservation and their departure time:
 
+.. image::  images/reservation-legs.png
+    :align: center
 
 The last column called Status allows you to have a quick overview of the current state of the reservation.
 
+.. image::  images/reservation-status.png
+    :align: center
 
 The first indication is the state of the reservation. Possible states are:
 
-- Reservation has been created but not booked.
-- Reservation is booked and is being handled by Ops.
-- Client has hold the reservation. Ops has received the reservation with an “on hold” status.
-- Reservation will be flown by another operator.
-- Reservation has been cancelled. Cancellation is possible from any previous state.
+- |status-pending| Reservation has been created but not booked.
+- |status-booked| Reservation is booked and is being handled by Ops.
+- |status-option| Client has hold the reservation. Ops has received the reservation with an “on hold” status.
+- |status-charter| Reservation will be flown by another operator.
+- |status-canceled| Reservation has been canceled. Cancellation is possible from any previous state.
 
-The three remaining indications, Quotation, Invoice and Boarding Pass are red when no such document has been created or if the last document is not up to date (changes made to the reservation).
+The three remaining indications, **Quotation, Invoice** and **Boarding Pass** are red when no such document has been created or if the last document is not up to date (changes made to the reservation).
 
 New estimate
 ------------
 
-The estimate page allows you to have a quick estimate of the price for a one-way flight without creating a reservation. Previous estimates are visible and ordered by Most used and Last estimates.
+The estimate page allows you to have a quick estimate of the price for a one-way flight without creating a reservation. Previous estimates are visible and ordered by **Most used** and **Last estimates**.
 
+.. image::  images/estimate.png
+    :align: center
 
-The button Create a reservation triggers the new reservation form pre-filled with aircraft type, origin and destination.
+The button **Create a reservation** triggers the new reservation form pre-filled with aircraft type, origin and destination.
 
 Create and edit a reservation
 -----------------------------
 
-You can create a new reservation using an estimate or directly on the New reservation page. Complete the form with the informations for the first leg and click Add.
+You can create a new reservation using an estimate or directly on the **New reservation page**. Complete the form with the informations for the first leg and click **Add**.
 
+.. image::  images/new-reservation.png
+    :align: center
 
 You will be now redirected to the reservation editing page.
 
 Change reservation status
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On the top right corner of the page is the reservation status button, allowing you to change the status.
 
 
-Try auto-book will trigger the optimzation system and propose an aicraft and a crew. If you book through this, aircraft and crew planning will be automatically changed and empty leg and crew positionning will be added.
-Send to Ops will send the flight to ops with no assignment and change the status to booked
-Option will send the flight to ops with the on hold status
-Cancel will cancel the reservation
-Chartering will switch the status to Charter
+- Try auto-book will trigger the optimzation system and propose an aicraft and a crew. If you book through this, aircraft and crew planning will be automatically changed and empty leg and crew positionning will be added.
+- Send to Ops will send the flight to ops with no assignment and change the status to booked
+- Option will send the flight to ops with the on hold status
+- Cancel will cancel the reservation
+- Chartering will switch the status to Charter
+
 Availability
+^^^^^^^^^^^^
+
 Next to the status indication, you find a button which triggers the optimisation to verify the availability of the flights.
 
 
@@ -188,3 +199,18 @@ Logs
 ^^^^
 
 All changes made to the reservation are recorded in the log.
+
+.. |status-booked| image:: images/statuses/booked.png
+  :align: middle
+
+.. |status-canceled| image:: images/statuses/canceled.png
+  :align: middle
+
+.. |status-charter| image:: images/statuses/charter.png
+  :align: middle
+
+.. |status-option| image:: images/statuses/option.png
+  :align: middle
+
+.. |status-pending| image:: images/statuses/pending.png
+  :align: middle

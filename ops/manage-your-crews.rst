@@ -8,16 +8,16 @@ Adding a new crew
 
 1. **Create crew**
 
-Go to Crew -> Crew List and click on Create. Fill out the form with at least the mandatory information
+Go to **Crew > Crew** List and click on Create. Fill out the form with at least the mandatory information
 
-- First Name
-- Last Name
-- Initials is a 3 letter code, used across the operations feature (planning, pairing, flight list) to identify the crew without writing the full name.
-- Occupation
-- Weight
-- Email 
-- Base Airports
-- Airport qualifications and expiry dates
+- **First Name**
+- **Last Name**
+- **Initials** is a 3 letter code, used across the operations feature (planning, pairing, flight list) to identify the crew without writing the full name.
+- **Occupation**
+- **Weight**
+- **Email**
+- **Base Airports**
+- **Airport qualifications and expiry dates**
 
 Click Save at the bottom right of the window. You have now created a new pilot.
 
@@ -30,16 +30,16 @@ Refer to User management to link a user to a crew.
 
 3. **Set pairing**
 
-Go to the page **Crew -> Pairing**. This is used to set pairing between two crews (“Who can fly with who”). The vertical scale lists all captains (left seat) and on the horizontal line all captains and first officers (right seat) are listed. Simply click on a cell to set the pairing to OK (green) or Forbidden (red). See Flight Operations for the effects of pairing.
+Go to the page **Crew > Pairing**. This is used to set pairing between two crews (“Who can fly with who”). The vertical scale lists all captains (left seat) and on the horizontal line all captains and first officers (right seat) are listed. Simply click on a cell to set the pairing to OK (green) or Forbidden (red). See Flight Operations for the effects of pairing.
 
-In the same ways, on the page Crew -> Pairing Crew/Aircraft you can manage the aircraft qualifications of your crews.
+In the same ways, on the page **Crew > Pairing Crew/Aircraft** you can manage the aircraft qualifications of your crews.
 
 Your crew is now ready for operations.
 
 Planning
 --------
 
-To access general planning, go to Crew -> Planning overview. This customizable page allows you display monthly planning of your crews. To add an activity, simply click on a cell and fill out the form. You should always indicate an airport to and airport from, as the optimization system always needs to know the nearest airport for each crew. Use the button add to add another crew to the same activity.
+To access general planning, go to **Crew > Planning overview**. This customizable page allows you display monthly planning of your crews. To add an activity, simply click on a cell and fill out the form. You should always indicate an airport to and airport from, as the optimization system always needs to know the nearest airport for each crew. Use the button add to add another crew to the same activity.
 
 .. image:: images/crews/addactivity.png
     :align: center
@@ -50,7 +50,7 @@ Activity types are given a color used in Crew calendars and planning overview.
 
 Just send a message to support@openet.com should you need to be given rights to administrate Activities and Types.
 
-You can also access individual planning by clicking on  in the Flight List or via the Planning button on a crew’s page. Activities can be added or edited on an individual planning in the same way as the team overview planning.
+You can also access individual planning by clicking on |calendar| in the Flight List or via the Planning button on a crew’s page. Activities can be added or edited on an individual planning in the same way as the team overview planning.
 
 FTL
 ---
@@ -66,7 +66,7 @@ Airport Qualification
 
 If you wish to use OpenJet 360 to manage your crew’s Airport Qualification, you must first set an airport as requiring special qualification. Refer to Airports section.
 
-On a crew’s page, simply click on Add Airport Qualification and set an expiration date. This will influence the crew choice and warning panel in the flight list. See Flight Operations for more details.
+On a crew’s page, simply click on **Add Airport Qualification** and set an expiration date. This will influence the crew choice and warning panel in the flight list. See Flight Operations for more details.
 
 Expiry dates
 ------------
@@ -95,3 +95,6 @@ On the crew list, the “Status” column displays items about to expire with th
     :align: center
 
 The page Crew -> Expiration dates also gives you an overview of these items and allows you to easily monitor expiration dates.
+
+.. |calendar| image:: images/crews/calendar.png
+  :align: middle

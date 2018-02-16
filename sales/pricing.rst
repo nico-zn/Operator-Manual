@@ -5,13 +5,12 @@ Pricing
 Pricing strategy and base airports
 ----------------------------------
 
-On the page Configure -> General (Admin role) in the Options section, you can choose between 3 pricing modes:
+On the page **Configure > General** (Admin role) in the **Options** section, you can choose between 3 pricing modes:
 
 .. image:: images/pricing-strategy.png
     :align: center
 
-
-If all your aircraft of the same type are based on the same airport and have a similar pricing, you should use “Pricing by aircraft type only”. The type’s base is set on the page Pricing -> Base airports. If you choose several airport bases, OpenJet 360 will choose the most appropriate one, reducing empty legs.
+If all your aircraft of the same type are based on the same airport and have a similar pricing, you should use “Pricing by aircraft type only”. The type’s base is set on the page **Pricing > Base airports**. If you choose several airport bases, OpenJet 360 will choose the most appropriate one, reducing empty legs.
 
 If your aircrafts of same type are located at different airports, you have two choices:
 
@@ -20,7 +19,7 @@ If your aircrafts of same type are located at different airports, you have two c
 
 If you choose “Pricing by type and tail number”, you will be able to have both, see pricing profiles for more details.
 
-Just below, you may choose flight time rounding : upper 5 minutes, lower 5 minutes or nearest 5 minutes.
+Just below, you may choose **flight time rounding**: upper 5 minutes, lower 5 minutes or nearest 5 minutes.
 
 Flight time calculations
 ------------------------
@@ -28,12 +27,12 @@ Flight time calculations
 OpenJet automatically calculates flight times based on direct route between two airports. 
 Aircraft performances can be set for each type of your company. See Manage your Fleet.
 
-If you are not satisfied with the flight time between two airports, you can manually set the flight time using the page Pricing -> Manual Flight Time List.
+If you are not satisfied with the flight time between two airports, you can manually set the flight time using the page **Pricing > Manual Flight Time List**.
 
 Pricing
 -------
 
-On the page Pricing -> Pricing Profiles, you can create, edit and manage pricing profiles.
+On the page **Pricing > Pricing Profiles**, you can create, edit and manage pricing profiles.
 Click on a profile to edit it.
 
 Copy from profile

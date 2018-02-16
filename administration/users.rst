@@ -3,7 +3,7 @@ Manage Users
 
 User management is accessible through the menu **User > User list**. The right to manage users is by default granted to the **Admin** role. Remember: this can be changed as you prefer, contact support@openjet.com for any changes related to roles and rights.
 
-To view and edit an existing user, click on the eye. To create a new user, click **Add New**. The form for creating or editing a user are the same, except for the passwords fields.
+To view and edit an existing user, click on |eye|. To create a new user, click **Add New**. The form for creating or editing a user are the same, except for the passwords fields.
 
 Create a User
 -------------
@@ -26,3 +26,6 @@ Desactivate a user
 ------------------
 
 To deactivate a user, just un-click **Is active**. The access for the user is then suspended.
+
+.. |eye| image:: images/eye.png
+  :align: middle

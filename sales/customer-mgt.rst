@@ -27,10 +27,10 @@ Classification
 .. image::  images/customerclassification.png
     :align: center
 
-You can set any customer as being a **Company** or an individual.
-You have to choose a unique Customer Type for the account.
-You can manage Customer Types in **Customer > Customer Types**.
-You can choose for which Business Unit this Customer belongs, if applicable.
+- You can set any customer as being a **Company** or an individual.
+- You have to choose a unique Customer Type for the account.
+- You can manage Customer Types in **Customer > Customer Types**.
+- You can choose for which Business Unit this Customer belongs, if applicable.
 
 Tags
 ^^^^

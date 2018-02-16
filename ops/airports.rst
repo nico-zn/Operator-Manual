@@ -16,9 +16,9 @@ You can then manage your categories on the page **Airport > Categories**.
 Airport Data
 ------------
 
-Menu **Airport > Airport List**, click on  to view airport data.
+Menu **Airport > Airport List**, click on |eye| to view airport data.
 
-.. note:: Should an airport not be on the list, add it using Airport -> Add available airport page. It will transfere an airport from the master list to your company airport list.
+.. note:: Should an airport not be on the list, add it using **Airport > Add available** airport page. It will transfer an airport from the master list to your company airport list.
 
 .. image:: images/airports/airport-data_v1.png
     :align: center
@@ -56,4 +56,7 @@ The **Comment section** allows you to enter a comment, which will be shown to Sa
 FBO data
 --------
 
-The FBO list is available on page **Airport -> FBO list**.
+The FBO list is available on page **Airport > FBO list**.
+
+.. |eye| image:: images/airports/eye.png
+  :align: middle

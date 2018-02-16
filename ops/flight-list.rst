@@ -13,10 +13,10 @@ Pending flights are flights sent by Sales awaiting aircraft and crew assignation
 
 You have four possibilities to handle this flight request. To access these possibilities, click on |create|
 
-- Try Auto-Book: the optimization unit of Openjet will try to find a solution for you, which you can accept or not.
-- Create Mission: you will manually assign an aircraft and crew. The flight will then be moved to the section below.
-- Add to Mission: if the flight can be added to an existing mission, this option will be shown. Select desired mission and the leg will be automatically added to existing mission.
-- Decline: if you cannot perform this flight, choose “Decline”. Sales will have to find another solution (e.g. Chartering).
+- **Try Auto-Book:** the optimization unit of Openjet will try to find a solution for you, which you can accept or not.
+- **Create Mission:** you will manually assign an aircraft and crew. The flight will then be moved to the section below.
+- **Add to Mission:** if the flight can be added to an existing mission, this option will be shown. Select desired mission and the leg will be automatically added to existing mission.
+- **Decline:** if you cannot perform this flight, choose “Decline”. Sales will have to find another solution (e.g. Chartering).
 
 Flights
 -------
@@ -30,21 +30,21 @@ It is possible to group several legs into a “mission”. See further below how
 Legs
 ----
 
-Legs are displayed like this: 
+Legs are displayed like this: |leg-com|
 
 From left to right: Departure Airport / Departure Airport Category (if defined by operator) / Type of leg (Arrow) / Arrival Airport / Arrival Airport Category.
 
 The leg arrow will be different according to the type of leg:
 
-- Commercial leg: 
-- Empty Leg: 
-- Leg changed:  means Sales has amended this leg (e.g. departure time). Open leg edit (see below) to see what has changed.
-- Leg deleted:  means leg or reservation has been cancelled by Sales. OPS needs to remove it from planning or replace it with an empty leg.
+- **Commercial leg:** |leg-com-1|
+- **Empty Leg:** |leg-empty|
+- **Leg changed:** |leg-changed| means Sales has amended this leg (e.g. departure time). Open leg edit (see below) to see what has changed.
+- **Leg deleted:**  |leg-deleted| means leg or reservation has been cancelled by Sales. OPS needs to remove it from planning or replace it with an empty leg.
 
 Group legs
 ^^^^^^^^^^
 
-To group legs already in the flight list to a mission, click on the leg arrow. In the pop-up, click on  and choose a mission below “Extract to mission”.
+To group legs already in the flight list to a mission, click on the leg arrow. In the pop-up, click on |action| and choose a mission below “Extract to mission”.
 
 Aircraft assignment
 ^^^^^^^^^^^^^^^^^^^
@@ -61,16 +61,19 @@ Leg details
 
 To access leg details, click on the leg arrow. This pop-up will appear:
 
-.. image:: images/calendar-view/calendar-drawer.png
+.. image:: images/flight-list/popup-leg.png
     :align: center
 
-- Click on  to edit departure time, airports, FBO and flight time.
+- Click on |pencil| to edit departure time, airports, FBO and flight time.
 - Once the NOTAMs have been checked, check the box and add important information regarding notams for the crew, then click on “Save NOTAM”.
-- By clicking on  you can extract the flight to a new or another mission, add a comment to the leg or delete the leg.
+- By clicking on |commercial| you can extract the flight to a new or another mission, add a comment to the leg or delete the leg.
 - If CFMU informations* (Europe) are enabled for your company, informations will display as follows:
 
+.. image:: images/flight-list/cfmu.png
+    :align: center
+
 - The three boxes below the action button are linked to the “OPS” indicator in the status panel. “Category” will appear green if the airports have been categorized. You can check the boxes if you have checked that all Visa and overflight/landing permits matters have been dealt with. Once all three boxes are green, the “OPS” indicator will turn green.
-- By clicking on  you can change the flight type (e.g. commercial, private, general aviation, training). Changing the flight type can have an impact on FTL calculation, depending on the regulation applying.
+- By clicking on |commercial| you can change the flight type (e.g. commercial, private, general aviation, training). Changing the flight type can have an impact on FTL calculation, depending on the regulation applying.
 - Commercial: in this section you can see the customer’s name and comments added by Sales.
 - Logs: the logs displays the changes made to the leg, since its creation.
 
@@ -78,6 +81,9 @@ Status Panel
 ^^^^^^^^^^^^
 
 The status panel gives you an overview of the mission. If there is no red on the panel, all flights of the mission are OK to be performed.
+
+.. image:: images/flight-list/warnings.png
+    :align: center
 
 - **Routing:** red means there is a routing error (departure airport different than arrival airport) with previous or next leg.
 - **Sales:** red means that a change has occurred on the sales side. Check leg arrows.
@@ -94,7 +100,7 @@ The status panel gives you an overview of the mission. If there is no red on the
 - **Hotel:** click on the indicator to set the hotel booking status. If you check a “to do” or “requested” box, indicator will show red or blue (if an “ok” box is also checked) and green if only “ok” boxes are checked.
 - **Catering:** this indicator works like the hotel indicator.
 - **Service:** this indicator works like the hotel indicator.
-- **Comment:** click on this indicator to add any comment.
+- **Comment:** click on |comment| indicator to add any comment.
 - **Cojetage:** if there is an empty leg in the mission, it will show blue. You can click on the indicator to add the flight to Cojetage (if applicable).
 
 Leg package Validation
@@ -103,7 +109,7 @@ Leg package Validation
 This page is a tool to follow your checks on the leg packages provided by your crews after flights.
 To validate one or several leg packages, click on the desired checkboxes and validate.
 
-.. note:: You can customize the list by clicking on “Manage views” in the side bar.
+.. note:: You can customize the list by clicking on **Manage views** in the side bar.
 
 Flight routing errors
 ---------------------
@@ -113,4 +119,31 @@ This page contains the inventory of all flight routing errors, in a much more vi
 .. note:: The CFMU service is being created and provided using electronic data products which have been created and made available by the European Organisation for the Safety of Air Navigation (EUROCONTROL). All rights reserved.
 
 .. |create| image:: images/flight-list/create.png
+  :align: middle
+
+.. |action| image:: images/flight-list/action.png
+  :align: middle
+
+.. |commercial| image:: images/flight-list/commercial.png
+  :align: middle
+
+.. |comment| image:: images/flight-list/comment.png
+  :align: middle
+
+.. |pencil| image:: images/flight-list/pencil.png
+  :align: middle
+
+.. |leg-changed| image:: images/flight-list/leg/changed.png
+  :align: middle
+
+.. |leg-com| image:: images/flight-list/leg/com.png
+  :align: middle
+
+.. |leg-com-1| image:: images/flight-list/leg/com-1.png
+  :align: middle
+
+.. |leg-deleted| image:: images/flight-list/leg/deleted.png
+  :align: middle
+
+.. |leg-empty| image:: images/flight-list/leg/empty.png
   :align: middle

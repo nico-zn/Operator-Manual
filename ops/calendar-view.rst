@@ -49,7 +49,7 @@ Crew assignment
 
 To assign a crew to a mission, click on the leg and select crew for each position according to the flight type. Crew are ordered according to the pairing possibilities and airport qualification (if applicable). If a crew has a secondary role defined (e.g. TRI, TRE), the choice will appear in a third box, according to crew set for the chosen flight type.
 
-- Click on  to edit departure time, airports, FBO and flight time.
+- Click on |pencil| to edit departure time, airports, FBO and flight time.
 - Once the NOTAMs have been checked, check the box and add important information regarding notams for the crew, then click on “Save NOTAM”.
 - By clicking on **Delete** button to delete the leg.
 - If CFMU informations* (Europe) are enabled for your company, informations will be displayed in the Overview page.
@@ -85,3 +85,6 @@ The status panel gives you an overview of the mission. If there is no red on the
 - **Cojetage:** if there is an empty leg in the mission, it will show blue. You can click on the indicator to add the flight to Cojetage (if applicable).
 
 .. note:: The CFMU service is being created and provided using electronic data products which have been created and made available by the European Organisation for the Safety of Air Navigation (EUROCONTROL). All rights reserved.
+
+.. |pencil| image:: images/calendar-view/pencil.png
+  :align: middle
