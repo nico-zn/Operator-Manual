@@ -13,7 +13,7 @@ set -e
 git clone -b gh-pages https://${GH_TOKEN}@github.com/OpenJet/Operator-Manual.git ~/gh-pages_build
 
 # Copy generated HTML site to 'gh-pages' branch.
-cp -R build/* ~/gh-pages_build
+cp -R _build/* ~/gh-pages_build
 
 # Commit and push generated content to 'gh-pages' branch.
 # Since repository was cloned in write mode with token auth - we can push there.
