@@ -3,6 +3,10 @@ OpenJet documentation
 
 OpenJet is the operating system for business aviation.
 
+**This documentation is available for download:**
+
+:download:`OpenJet 360 - Operator Manual (PDF) <_pdf/OpenJet_360__Operator_Manual.pdf>`
+
 General Principles
 ------------------
 
