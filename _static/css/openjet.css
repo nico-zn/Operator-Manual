@@ -1,0 +1,37 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+.wy-body-for-nav,
+.wy-nav-content-wrap {
+    background: #fff;
+}
+
+.wy-side-nav-logo {
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.wy-side-nav-search {
+    padding: 0;
+}
+
+.wy-side-nav-search img {
+    border-radius: 0;
+    padding: 0;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: inherit;
+}
+
+.wy-side-nav-search-box {
+    padding: 1em;
+}
+
+div[class^='highlight'] pre {
+    font-family: "Consolas", "Monaco", monospace;
+    font-size: 12px;
+}
