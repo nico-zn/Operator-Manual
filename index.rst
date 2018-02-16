@@ -3,13 +3,13 @@ OpenJet documentation
 
 OpenJet is the operating system for business aviation.
 
-Release Notes
--------------
+General Principles
+------------------
 
 .. toctree::
     :hidden:
 
-    release-notes/index
+    general/index
 
 Administration
 --------------
@@ -49,3 +49,11 @@ Pilot App
     :hidden:
 
     pilot-app/index
+
+Release Notes
+-------------
+
+.. toctree::
+    :hidden:
+
+    release-notes/index
