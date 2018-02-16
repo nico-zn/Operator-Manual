@@ -7,6 +7,7 @@ before_script:
 - pip install -r requirements.txt
 script:
 - sphinx-build -b html . build
+- sphinx-build -b pdf . build
 - sh .deploy.sh
 env:
   global:

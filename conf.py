@@ -2,7 +2,7 @@
 import sys, os, sphinx_rtd_theme
 
 # Configuration
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo', 'sphinx.ext.imgmath']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo', 'rst2pdf.pdfbuilder']
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'OpenJet'
@@ -13,8 +13,12 @@ man_pages = [
 ]
 
 # Doc version
-version = ''
+version = '2.9.6'
 release = ''
+
+# PDF Configuration
+pdf_documents = [('index', u'OpenJet_360__Operator_Manual', u'OpenJet 360 Operator Manual', u'OpenJet S.A.'),]
+pdf_style_path = ['.', '_styles']
 
 # Sphinx Read the doc theme : https://github.com/rtfd/sphinx_rtd_theme
 html_theme = "openjet_rtd_theme"

@@ -1,3 +1,4 @@
 sphinx>=1.4,<1.6
 sphinx_rtd_theme>=0.2.4
 requests[security]
+rst2pdf==0.93.dev0
