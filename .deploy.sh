@@ -10,7 +10,7 @@ fi
 set -e
 
 # Clone 'gh-pages' branch of the repository using encrypted GH_TOKEN for authentification.
-git clone -b gh-pages https://${GH_TOKEN}@github.com/Operator-Manual.git ~/gh-pages_build
+git clone -b gh-pages https://${GH_TOKEN}@github.com/OpenJet/Operator-Manual.git ~/gh-pages_build
 
 # Copy generated HTML site to 'gh-pages' branch.
 cp -R build/* ~/gh-pages_build
