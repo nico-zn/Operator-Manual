@@ -1,0 +1,367 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Flight List &mdash; OpenJet  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="OpenJet  documentation" href="../index.html"/>
+        <link rel="up" title="OPS" href="index.html"/>
+        <link rel="next" title="Calendar View" href="calendar-view.html"/>
+        <link rel="prev" title="Airports and FBOs" href="airports.html"/>
+    <link rel="stylesheet" type='text/css' href="../_static/css/openjet.css" />
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+    <div class="wy-side-nav-logo">
+        <a href="../index.html">
+            <img src="../_images/logo.png" />
+        </a>
+    </div>
+
+    <div class="wy-side-nav-search-box">
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+    </div>
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/index.html">General Principles</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../administration/index.html">Administration</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../sales/index.html">Sales</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">OPS</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="manage-your-fleet.html">Manage your fleet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manage-your-crews.html">Manage your crews</a></li>
+<li class="toctree-l2"><a class="reference internal" href="airports.html">Airports and FBOs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Flight List</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pending-flights">Pending Flights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flights">Flights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#legs">Legs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#group-legs">Group legs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aircraft-assignment">Aircraft assignment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crew-assignment">Crew assignment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#leg-details">Leg details</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#status-panel">Status Panel</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#leg-package-validation">Leg package Validation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flight-routing-errors">Flight routing errors</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="calendar-view.html">Calendar View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="link-to-pps.html">Link to PPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reporting.html">Reporting</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pilot-app/index.html">Pilot App</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OpenJet</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">OPS</a> &raquo;</li>
+        
+      <li>Flight List</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/OpenJet/Operator-Manual" target="_blank" class="fa fa-github"> Edit on GitHub</a>
+    </li>
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="flight-list">
+<h1>Flight List<a class="headerlink" href="#flight-list" title="Permalink to this headline">¶</a></h1>
+<p>Flight operations are managed on the page <strong>Flight &gt; Flight list</strong>.</p>
+<div class="section" id="pending-flights">
+<h2>Pending Flights<a class="headerlink" href="#pending-flights" title="Permalink to this headline">¶</a></h2>
+<p>Pending flights are flights sent by Sales awaiting aircraft and crew assignation. A confirmed reservation will appear in dark grey with the status booked, whereas an optioned reservation will be in light grey with the status on hold, as shown below.</p>
+<img alt="../_images/optionned_v1.png" class="align-center" src="../_images/optionned_v1.png" />
+<p>You have four possibilities to handle this flight request. To access these possibilities, click on <img alt="create" class="align-middle" src="../_images/create.png" /></p>
+<ul class="simple">
+<li><strong>Try Auto-Book:</strong> the optimization unit of Openjet will try to find a solution for you, which you can accept or not.</li>
+<li><strong>Create Mission:</strong> you will manually assign an aircraft and crew. The flight will then be moved to the section below.</li>
+<li><strong>Add to Mission:</strong> if the flight can be added to an existing mission, this option will be shown. Select desired mission and the leg will be automatically added to existing mission.</li>
+<li><strong>Decline:</strong> if you cannot perform this flight, choose “Decline”. Sales will have to find another solution (e.g. Chartering).</li>
+</ul>
+</div>
+<div class="section" id="flights">
+<h2>Flights<a class="headerlink" href="#flights" title="Permalink to this headline">¶</a></h2>
+<p>This section displays all flights planned or waiting for assignation. The flights are ordered chronologically according to their departure date and time.</p>
+<p>A flight with no assigned aircraft will appear in dark grey. Once an aircraft has been assigned, the flight will change its color to the aircraft color.</p>
+<p>It is possible to group several legs into a “mission”. See further below how to do it.</p>
+</div>
+<div class="section" id="legs">
+<h2>Legs<a class="headerlink" href="#legs" title="Permalink to this headline">¶</a></h2>
+<p>Legs are displayed like this: <img alt="leg-com" class="align-middle" src="../_images/com.png" /></p>
+<p>From left to right: Departure Airport / Departure Airport Category (if defined by operator) / Type of leg (Arrow) / Arrival Airport / Arrival Airport Category.</p>
+<p>The leg arrow will be different according to the type of leg:</p>
+<ul class="simple">
+<li><strong>Commercial leg:</strong> <img alt="leg-com-1" class="align-middle" src="../_images/com-1.png" /></li>
+<li><strong>Empty Leg:</strong> <img alt="leg-empty" class="align-middle" src="../_images/empty.png" /></li>
+<li><strong>Leg changed:</strong> <img alt="leg-changed" class="align-middle" src="../_images/changed.png" /> means Sales has amended this leg (e.g. departure time). Open leg edit (see below) to see what has changed.</li>
+<li><strong>Leg deleted:</strong>  <img alt="leg-deleted" class="align-middle" src="../_images/deleted.png" /> means leg or reservation has been cancelled by Sales. OPS needs to remove it from planning or replace it with an empty leg.</li>
+</ul>
+<div class="section" id="group-legs">
+<h3>Group legs<a class="headerlink" href="#group-legs" title="Permalink to this headline">¶</a></h3>
+<p>To group legs already in the flight list to a mission, click on the leg arrow. In the pop-up, click on <img alt="action" class="align-middle" src="../_images/action.png" /> and choose a mission below “Extract to mission”.</p>
+</div>
+<div class="section" id="aircraft-assignment">
+<h3>Aircraft assignment<a class="headerlink" href="#aircraft-assignment" title="Permalink to this headline">¶</a></h3>
+<p>To assign an aircraft to a mission, click on the dash in the Aircraft column, choose aircraft type and tail number. If an aircraft is already busy, it will show “busy” next to its tail number.</p>
+</div>
+<div class="section" id="crew-assignment">
+<h3>Crew assignment<a class="headerlink" href="#crew-assignment" title="Permalink to this headline">¶</a></h3>
+<p>To assign a crew to a mission, click on the dash in the Aircraft column and select a crew in the left and right seat. Crew are ordered according to the pairing possibilities and airport qualification (if applicable). If a crew has a secondary role defined (e.g. TRI, TRE), the choice will appear in a third box.</p>
+</div>
+<div class="section" id="leg-details">
+<h3>Leg details<a class="headerlink" href="#leg-details" title="Permalink to this headline">¶</a></h3>
+<p>To access leg details, click on the leg arrow. This pop-up will appear:</p>
+<img alt="../_images/popup-leg.png" class="align-center" src="../_images/popup-leg.png" />
+<ul class="simple">
+<li>Click on <img alt="pencil" class="align-middle" src="../_images/pencil1.png" /> to edit departure time, airports, FBO and flight time.</li>
+<li>Once the NOTAMs have been checked, check the box and add important information regarding notams for the crew, then click on “Save NOTAM”.</li>
+<li>By clicking on <img alt="commercial" class="align-middle" src="../_images/commercial.png" /> you can extract the flight to a new or another mission, add a comment to the leg or delete the leg.</li>
+<li>If CFMU informations* (Europe) are enabled for your company, informations will display as follows:</li>
+</ul>
+<img alt="../_images/cfmu.png" class="align-center" src="../_images/cfmu.png" />
+<ul class="simple">
+<li>The three boxes below the action button are linked to the “OPS” indicator in the status panel. “Category” will appear green if the airports have been categorized. You can check the boxes if you have checked that all Visa and overflight/landing permits matters have been dealt with. Once all three boxes are green, the “OPS” indicator will turn green.</li>
+<li>By clicking on <img alt="commercial" class="align-middle" src="../_images/commercial.png" /> you can change the flight type (e.g. commercial, private, general aviation, training). Changing the flight type can have an impact on FTL calculation, depending on the regulation applying.</li>
+<li>Commercial: in this section you can see the customer’s name and comments added by Sales.</li>
+<li>Logs: the logs displays the changes made to the leg, since its creation.</li>
+</ul>
+</div>
+<div class="section" id="status-panel">
+<h3>Status Panel<a class="headerlink" href="#status-panel" title="Permalink to this headline">¶</a></h3>
+<p>The status panel gives you an overview of the mission. If there is no red on the panel, all flights of the mission are OK to be performed.</p>
+<img alt="../_images/warnings.png" class="align-center" src="../_images/warnings.png" />
+<ul class="simple">
+<li><strong>Routing:</strong> red means there is a routing error (departure airport different than arrival airport) with previous or next leg.</li>
+<li><strong>Sales:</strong> red means that a change has occurred on the sales side. Check leg arrows.</li>
+<li><strong>OPS:</strong> shows green if the three boxes in the legs details are green, for all legs of the mission.</li>
+<li><strong>Aircraft:</strong> shows green if aircraft has been assigned.</li>
+<li><strong>NOTAM:</strong> shows green if NOTAMs have been checked for all legs.</li>
+<li><strong>FBO:</strong> click on the indicator to manage and send your FBO request for the mission. Select the legs for which you wish to send the request and click send. You will receive a copy of the request in the default OPS email. You can manually switch the status for each FBO request. Turn it green when the FBO has acknowledged the request.</li>
+<li><strong>Crew:</strong> if a correct crew has been assigned, it will show green.</li>
+<li><strong>Pilot App:</strong> red means that no leg has been acknowledged by the crew, blue means it has been partially acknowledged (click on indicator for details) and green means the mission has been entirely acknowledged.</li>
+<li><strong>FTL:</strong> this box will show orange (warning) or red (alarm) if there is any FTL issue, green otherwise. Click on the indicator to view the error message. A link will guide you to the pilot’s planning for more information.</li>
+<li><strong>Qualif:</strong> if an airport needs a qualification, this indicator will show red until a qualified captain has been assigned. It will then show green. If qualification required only in some weather conditions, it will show orange if the captain is not qualified.</li>
+<li><strong>Extended:</strong> shows green if the duty is extended according to FTL regulation (Europe)</li>
+<li><strong>Split:</strong> shows green if the duty is split according to FTL regulation (Europe)</li>
+<li><strong>Hotel:</strong> click on the indicator to set the hotel booking status. If you check a “to do” or “requested” box, indicator will show red or blue (if an “ok” box is also checked) and green if only “ok” boxes are checked.</li>
+<li><strong>Catering:</strong> this indicator works like the hotel indicator.</li>
+<li><strong>Service:</strong> this indicator works like the hotel indicator.</li>
+<li><strong>Comment:</strong> click on <img alt="comment" class="align-middle" src="../_images/comment.png" /> indicator to add any comment.</li>
+<li><strong>Cojetage:</strong> if there is an empty leg in the mission, it will show blue. You can click on the indicator to add the flight to Cojetage (if applicable).</li>
+</ul>
+</div>
+</div>
+<div class="section" id="leg-package-validation">
+<h2>Leg package Validation<a class="headerlink" href="#leg-package-validation" title="Permalink to this headline">¶</a></h2>
+<p>This page is a tool to follow your checks on the leg packages provided by your crews after flights.
+To validate one or several leg packages, click on the desired checkboxes and validate.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can customize the list by clicking on <strong>Manage views</strong> in the side bar.</p>
+</div>
+</div>
+<div class="section" id="flight-routing-errors">
+<h2>Flight routing errors<a class="headerlink" href="#flight-routing-errors" title="Permalink to this headline">¶</a></h2>
+<p>This page contains the inventory of all flight routing errors, in a much more visible way than the flight list.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The CFMU service is being created and provided using electronic data products which have been created and made available by the European Organisation for the Safety of Air Navigation (EUROCONTROL). All rights reserved.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="calendar-view.html" class="btn btn-neutral float-right" title="Calendar View" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="airports.html" class="btn btn-neutral" title="Airports and FBOs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015-2018, OpenJet Team.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

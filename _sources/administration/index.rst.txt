@@ -6,3 +6,13 @@ The administration of your OpenJet plateform is accessible with the "Admin" role
 Contact support@openjet.com with your needs and we will do the necessary work.
 
 This section will deal with the administration features that are commonly not accessible by **OPS** and **Sales**.
+
+.. toctree::
+    :hidden:
+
+    users
+    config-operator
+    config-ftl
+    notifications
+
+.. include:: /administration/map.rst.inc

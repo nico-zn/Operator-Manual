@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Manage Users &mdash; Openjet  documentation</title>
+  <title>Manage Users &mdash; OpenJet  documentation</title>
   
 
   
@@ -37,7 +37,10 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Openjet  documentation" href="../index.html"/>
+    <link rel="top" title="OpenJet  documentation" href="../index.html"/>
+        <link rel="up" title="Administration" href="index.html"/>
+        <link rel="next" title="Configuration : Operator" href="config-operator.html"/>
+        <link rel="prev" title="Administration" href="index.html"/>
     <link rel="stylesheet" type='text/css' href="../_static/css/openjet.css" />
 
 
@@ -83,10 +86,32 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/index.html">General Principles</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Manage Users</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#create-a-user">Create a User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#desactivate-a-user">Desactivate a user</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="config-operator.html">Configuration : Operator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config-ftl.html">Configuration : FTL/Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notifications.html">Notifications</a></li>
+</ul>
+</li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sales/index.html">Sales</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ops/index.html">OPS</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pilot-app/index.html">Pilot App</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
 </ul>
 
             
@@ -101,7 +126,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Openjet</a>
+          <a href="../index.html">OpenJet</a>
         
       </nav>
 
@@ -131,11 +156,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
+          <li><a href="index.html">Administration</a> &raquo;</li>
+        
       <li>Manage Users</li>
     
     
     <li class="wy-breadcrumbs-aside">
-        <a href="https://gitlab.openjetlab.fr/backoffice/backoffice/tree/master/docs" target="_blank" class="fa fa-gitlab"> Edit on GitLab</a>
+        <a href="https://github.com/OpenJet/Operator-Manual" target="_blank" class="fa fa-github"> Edit on GitHub</a>
     </li>
 
   </ul>
@@ -148,9 +175,21 @@
             
   <div class="section" id="manage-users">
 <h1>Manage Users<a class="headerlink" href="#manage-users" title="Permalink to this headline">¶</a></h1>
-<p>The administration of your OpenJet plateform is accessible with the &#8220;Admin&#8221; role. Of course, you may want some features normally accessible by <strong>OPS</strong> or <strong>Sales</strong> (e.g. Pricing, Aircraft Performances) to be accessible only by an administrator. This is possible by changing the rights associated to the roles.</p>
-<p>Contact <a class="reference external" href="mailto:support&#37;&#52;&#48;openjet&#46;com">support<span>&#64;</span>openjet<span>&#46;</span>com</a> with your needs and we will do the necessary work.</p>
-<p>This section will deal with the administration features that are commonly not accessible by <strong>OPS</strong> and <strong>Sales</strong>.</p>
+<p>User management is accessible through the menu <strong>User &gt; User list</strong>. The right to manage users is by default granted to the <strong>Admin</strong> role. Remember: this can be changed as you prefer, contact <a class="reference external" href="mailto:support&#37;&#52;&#48;openjet&#46;com">support<span>&#64;</span>openjet<span>&#46;</span>com</a> for any changes related to roles and rights.</p>
+<p>To view and edit an existing user, click on <img alt="eye" class="align-middle" src="../_images/eye.png" />. To create a new user, click <strong>Add New</strong>. The form for creating or editing a user are the same, except for the passwords fields.</p>
+<div class="section" id="create-a-user">
+<h2>Create a User<a class="headerlink" href="#create-a-user" title="Permalink to this headline">¶</a></h2>
+<p>Fill out all the fields in the form. We recommend to use the Email as username.</p>
+<p>Check <strong>Is active</strong> to activate this user access.</p>
+<img alt="../_images/formuser_v1.png" class="align-center" src="../_images/formuser_v1.png" />
+<p>If the user is to be linked to an existing aircrew, select the aircrew in the list.</p>
+<p>Select <strong>Mail</strong> for the <strong>Type push</strong> field.</p>
+<p>Choose a password and submit. The user is now created and active.</p>
+</div>
+<div class="section" id="desactivate-a-user">
+<h2>Desactivate a user<a class="headerlink" href="#desactivate-a-user" title="Permalink to this headline">¶</a></h2>
+<p>To deactivate a user, just un-click <strong>Is active</strong>. The access for the user is then suspended.</p>
+</div>
 </div>
 
 
@@ -161,12 +200,21 @@
           </div>
           <footer>
   
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="config-operator.html" class="btn btn-neutral float-right" title="Configuration : Operator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Administration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2015-2017, OpenJet Team.
+        &copy; Copyright 2015-2018, OpenJet Team.
 
     </p>
   </div>

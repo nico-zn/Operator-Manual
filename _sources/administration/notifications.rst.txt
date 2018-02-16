@@ -1,8 +1,40 @@
-Manage Users
-==============
+Notifications
+=============
 
-The administration of your OpenJet plateform is accessible with the "Admin" role. Of course, you may want some features normally accessible by **OPS** or **Sales** (e.g. Pricing, Aircraft Performances) to be accessible only by an administrator. This is possible by changing the rights associated to the roles. 
+Role notifications
+------------------
 
-Contact support@openjet.com with your needs and we will do the necessary work.
+For OPS or Sales roles, notifications will display important informations regarding flight creations, updates and cancellations. This notification system is designed to ensure no informations are lost between sales and operations.
 
-This section will deal with the administration features that are commonly not accessible by **OPS** and **Sales**.
+.. image:: images/notifs-bar.png
+    :align: center
+
+Click on the warning logo to displays latest notifications:
+
+.. image:: images/notifs.png
+    :align: center
+
+To acknowledge the notification click on the status button ("must read").
+
+Flight reports comment and Groups
+---------------------------------
+
+Pilots can send a comment in a flight report through their App. The comment is to be send to one or several groups. Groups are managed by the admin on the page **Configure > Groups**.
+
+.. image:: images/groups.png
+    :align: center
+
+You may create any group with any name using the last section and and any user to any group using the middle section.
+
+E-mail notifications
+--------------------
+
+E-mail notification to the users are possible for various topics:
+
+- Reservation on an uncategorized airport
+- Fatigue Reports
+- Expiration dates
+
+To enable these notifications, contact Openjet Support.
+
+On the page **Configure > Notification**, choose which groups should receive the notifications.

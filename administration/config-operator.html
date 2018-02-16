@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Manage Users &mdash; Openjet  documentation</title>
+  <title>Configuration : Operator &mdash; OpenJet  documentation</title>
   
 
   
@@ -37,7 +37,10 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Openjet  documentation" href="../index.html"/>
+    <link rel="top" title="OpenJet  documentation" href="../index.html"/>
+        <link rel="up" title="Administration" href="index.html"/>
+        <link rel="next" title="Configuration : FTL/Optimization" href="config-ftl.html"/>
+        <link rel="prev" title="Manage Users" href="users.html"/>
     <link rel="stylesheet" type='text/css' href="../_static/css/openjet.css" />
 
 
@@ -83,10 +86,36 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/index.html">General Principles</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="users.html">Manage Users</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuration : Operator</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#contact">Contact</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#emails">Emails</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#document-customization">Document Customization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#options">Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#language-settings">Language Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logo">Logo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="config-ftl.html">Configuration : FTL/Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notifications.html">Notifications</a></li>
+</ul>
+</li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sales/index.html">Sales</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ops/index.html">OPS</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pilot-app/index.html">Pilot App</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
 </ul>
 
             
@@ -101,7 +130,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Openjet</a>
+          <a href="../index.html">OpenJet</a>
         
       </nav>
 
@@ -131,11 +160,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Manage Users</li>
+          <li><a href="index.html">Administration</a> &raquo;</li>
+        
+      <li>Configuration : Operator</li>
     
     
     <li class="wy-breadcrumbs-aside">
-        <a href="https://gitlab.openjetlab.fr/backoffice/backoffice/tree/master/docs" target="_blank" class="fa fa-gitlab"> Edit on GitLab</a>
+        <a href="https://github.com/OpenJet/Operator-Manual" target="_blank" class="fa fa-github"> Edit on GitHub</a>
     </li>
 
   </ul>
@@ -146,11 +177,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="manage-users">
-<h1>Manage Users<a class="headerlink" href="#manage-users" title="Permalink to this headline">¶</a></h1>
-<p>The administration of your OpenJet plateform is accessible with the &#8220;Admin&#8221; role. Of course, you may want some features normally accessible by <strong>OPS</strong> or <strong>Sales</strong> (e.g. Pricing, Aircraft Performances) to be accessible only by an administrator. This is possible by changing the rights associated to the roles.</p>
-<p>Contact <a class="reference external" href="mailto:support&#37;&#52;&#48;openjet&#46;com">support<span>&#64;</span>openjet<span>&#46;</span>com</a> with your needs and we will do the necessary work.</p>
-<p>This section will deal with the administration features that are commonly not accessible by <strong>OPS</strong> and <strong>Sales</strong>.</p>
+  <div class="section" id="configuration-operator">
+<h1>Configuration : Operator<a class="headerlink" href="#configuration-operator" title="Permalink to this headline">¶</a></h1>
+<p>This page is accessible using the menu <strong>Configure &gt; General</strong>.</p>
+<p>This page will be filled by the OpenJet team during the setup of your platform. You may want to have a look to check the information or update your contact informations, logo, etc…</p>
+<div class="section" id="contact">
+<h2>Contact<a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h2>
+<p>This section is about all contact informations of your company. The city entered will be used in the header of the documents generated by OpenJet 360 (Quotations, invoices etc..).</p>
+</div>
+<div class="section" id="emails">
+<h2>Emails<a class="headerlink" href="#emails" title="Permalink to this headline">¶</a></h2>
+<p>These email address will be copied in some emails sent by OpenJet 360. For example, the default OPS email will receive a copy of any FBO request, allowing you to check the actual sending of the request.</p>
+<p>You can specify the sender for Sales Documents : Sales or Current user email address.</p>
+<p>You can choose the departing email address from which to send Sales documents: Sales or Ops Email or User email.</p>
+</div>
+<div class="section" id="document-customization">
+<h2>Document Customization<a class="headerlink" href="#document-customization" title="Permalink to this headline">¶</a></h2>
+<p>For Sales documents, you can switch tick Terms &amp; Agreements customization to edit those fields at reservation level.</p>
+<p>The default content for Cancellation terms, Payment terms and Special Agreement can be set there.</p>
+</div>
+<div class="section" id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<p>For the pricing strategy, refer to the pricing section of this guide.</p>
+<p>You may choose or not to round your flight times calculated by OpenJet 360, choose the option you prefer.</p>
+<p>Credentials for third party interfaces are to be set there.</p>
+</div>
+<div class="section" id="language-settings">
+<h2>Language Settings<a class="headerlink" href="#language-settings" title="Permalink to this headline">¶</a></h2>
+<p>This section allows you to set default languages, number and date format.</p>
+</div>
+<div class="section" id="logo">
+<h2>Logo<a class="headerlink" href="#logo" title="Permalink to this headline">¶</a></h2>
+<p>Upload your logo here. It will be used in the FBO request.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Click <strong>Save</strong> at the bottom of the page to save the modification you entered.</p>
+</div>
+</div>
 </div>
 
 
@@ -161,12 +224,21 @@
           </div>
           <footer>
   
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="config-ftl.html" class="btn btn-neutral float-right" title="Configuration : FTL/Optimization" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="users.html" class="btn btn-neutral" title="Manage Users" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2015-2017, OpenJet Team.
+        &copy; Copyright 2015-2018, OpenJet Team.
 
     </p>
   </div>

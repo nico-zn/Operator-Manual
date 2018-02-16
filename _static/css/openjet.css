@@ -2,11 +2,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.wy-body-for-nav,
-.wy-nav-content-wrap {
-    background: #fff;
-}
-
 .wy-side-nav-logo {
     padding: 10px;
     background-color: #fff;

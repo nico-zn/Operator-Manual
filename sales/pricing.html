@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Pricing &mdash; OpenJet  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="OpenJet  documentation" href="../index.html"/>
+        <link rel="up" title="Sales" href="index.html"/>
+        <link rel="next" title="Taxation" href="taxation.html"/>
+        <link rel="prev" title="Customer Management" href="customer-mgt.html"/>
+    <link rel="stylesheet" type='text/css' href="../_static/css/openjet.css" />
+
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+    <div class="wy-side-nav-logo">
+        <a href="../index.html">
+            <img src="../_images/logo.png" />
+        </a>
+    </div>
+
+    <div class="wy-side-nav-search-box">
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+    </div>
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/index.html">General Principles</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../administration/index.html">Administration</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Sales</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="customer-mgt.html">Customer Management</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Pricing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pricing-strategy-and-base-airports">Pricing strategy and base airports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#flight-time-calculations">Flight time calculations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Pricing</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#copy-from-profile">Copy from profile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#general">General</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pricing-mode">Pricing mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rounding">Rounding</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-reservation-fee">Fixed reservation fee</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#airplane-price">Airplane price</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-leg-fee">Fixed leg fee</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#daily-fee">Daily fee</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#airport-average-price">Airport average price</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#airport-exceptions">Airport exceptions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#parking-per-hour-fee">Parking per hour fee</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wait-time-fee">Wait time fee</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pax-price">Pax price</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#empty-leg-price">Empty leg price</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#overnight-price">Overnight price</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#immobilisation-step-one-two">Immobilisation step one/two</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="taxation.html">Taxation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create-and-manage-reservations.html">Create and Manage Reservations</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ops/index.html">OPS</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pilot-app/index.html">Pilot App</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OpenJet</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Sales</a> &raquo;</li>
+        
+      <li>Pricing</li>
+    
+    
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/OpenJet/Operator-Manual" target="_blank" class="fa fa-github"> Edit on GitHub</a>
+    </li>
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pricing">
+<h1>Pricing<a class="headerlink" href="#pricing" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="pricing-strategy-and-base-airports">
+<h2>Pricing strategy and base airports<a class="headerlink" href="#pricing-strategy-and-base-airports" title="Permalink to this headline">¶</a></h2>
+<p>On the page <strong>Configure &gt; General</strong> (Admin role) in the <strong>Options</strong> section, you can choose between 3 pricing modes:</p>
+<img alt="../_images/pricing-strategy.png" class="align-center" src="../_images/pricing-strategy.png" />
+<p>If all your aircraft of the same type are based on the same airport and have a similar pricing, you should use “Pricing by aircraft type only”. The type’s base is set on the page <strong>Pricing &gt; Base airports</strong>. If you choose several airport bases, OpenJet 360 will choose the most appropriate one, reducing empty legs.</p>
+<p>If your aircrafts of same type are located at different airports, you have two choices:</p>
+<ul class="simple">
+<li>Pricing by aircraft type only: OpenJet 360 will automatically choose the aircraft by minimizing empty legs.</li>
+<li>Pricing by tail number only: you have to choose a tail number before making a quotation.</li>
+</ul>
+<p>If you choose “Pricing by type and tail number”, you will be able to have both, see pricing profiles for more details.</p>
+<p>Just below, you may choose <strong>flight time rounding</strong>: upper 5 minutes, lower 5 minutes or nearest 5 minutes.</p>
+</div>
+<div class="section" id="flight-time-calculations">
+<h2>Flight time calculations<a class="headerlink" href="#flight-time-calculations" title="Permalink to this headline">¶</a></h2>
+<p>OpenJet automatically calculates flight times based on direct route between two airports.
+Aircraft performances can be set for each type of your company. See Manage your Fleet.</p>
+<p>If you are not satisfied with the flight time between two airports, you can manually set the flight time using the page <strong>Pricing &gt; Manual Flight Time List</strong>.</p>
+</div>
+<div class="section" id="id1">
+<h2>Pricing<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>On the page <strong>Pricing &gt; Pricing Profiles</strong>, you can create, edit and manage pricing profiles.
+Click on a profile to edit it.</p>
+<div class="section" id="copy-from-profile">
+<h3>Copy from profile<a class="headerlink" href="#copy-from-profile" title="Permalink to this headline">¶</a></h3>
+<p>You can copy another profile content to this current profile.</p>
+</div>
+<div class="section" id="general">
+<h3>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h3>
+<p>You can set a name for your current pricing profile. You can add destination channels for the current profile:</p>
+<ul class="simple">
+<li>B2B is for reservations created from your dedicated Openjet environment. Note that you can have more than one profile for this channel, enabling to switch pricing profiles in one click in reservations.</li>
+<li>B2C is for reservations made directly by End customers on Openjet.com</li>
+<li>Agency is for reservations from a third party : GDS (like Amadeus), Travel agencies, Hotels and Concierges.</li>
+</ul>
+<p>The default for this channel option enables to use this profile at reservation creation.</p>
+</div>
+<div class="section" id="pricing-mode">
+<h3>Pricing mode<a class="headerlink" href="#pricing-mode" title="Permalink to this headline">¶</a></h3>
+<p>Prices in profiles: this option determines if the prices shown in the profile include taxes or if the tax is put on top.</p>
+<p>There are four options to show/hide additional services and empty legs from your quotation and invoice.</p>
+</div>
+<div class="section" id="rounding">
+<h3>Rounding<a class="headerlink" href="#rounding" title="Permalink to this headline">¶</a></h3>
+<p>You may choose here how you wish to round your prices and set the rounding precision.</p>
+</div>
+<div class="section" id="fixed-reservation-fee">
+<h3>Fixed reservation fee<a class="headerlink" href="#fixed-reservation-fee" title="Permalink to this headline">¶</a></h3>
+<p>This fee will be counted once per quotation.</p>
+</div>
+<div class="section" id="airplane-price">
+<h3>Airplane price<a class="headerlink" href="#airplane-price" title="Permalink to this headline">¶</a></h3>
+<p>You can choose to create your pricing for each tail number or for each model of aircraft by enabling the option on the chosen line.</p>
+<p>You need to enter commercial flight price, empty leg price per minute and set the minimum flight time per leg.</p>
+</div>
+<div class="section" id="fixed-leg-fee">
+<h3>Fixed leg fee<a class="headerlink" href="#fixed-leg-fee" title="Permalink to this headline">¶</a></h3>
+<p>This fee will apply once for any revenue leg and empty leg if selected.</p>
+</div>
+<div class="section" id="daily-fee">
+<h3>Daily fee<a class="headerlink" href="#daily-fee" title="Permalink to this headline">¶</a></h3>
+<p>This fee will apply for any commenced day (based on departure local time). You have the choice to apply a buffer time, if you don’t want flight arriving early in the morning to be charged a second day.</p>
+</div>
+<div class="section" id="airport-average-price">
+<h3>Airport average price<a class="headerlink" href="#airport-average-price" title="Permalink to this headline">¶</a></h3>
+<p>This fee covers landing and FBO fee. It applies for each landing, unless specified in airport exceptions.</p>
+</div>
+<div class="section" id="airport-exceptions">
+<h3>Airport exceptions<a class="headerlink" href="#airport-exceptions" title="Permalink to this headline">¶</a></h3>
+<p>Enter here the price for an airport for which you don’t want the average price to apply.</p>
+</div>
+<div class="section" id="parking-per-hour-fee">
+<h3>Parking per hour fee<a class="headerlink" href="#parking-per-hour-fee" title="Permalink to this headline">¶</a></h3>
+<p>You can apply an hourly parking fee on an airport. OpenJet calculates the schedules time on ground and applies the fee hourly. Every started hour is due.</p>
+</div>
+<div class="section" id="wait-time-fee">
+<h3>Wait time fee<a class="headerlink" href="#wait-time-fee" title="Permalink to this headline">¶</a></h3>
+<p>OpenJet calculates the time spent on ground within the reservation and applies this fee hourly. Every started hour is due.</p>
+</div>
+<div class="section" id="pax-price">
+<h3>Pax price<a class="headerlink" href="#pax-price" title="Permalink to this headline">¶</a></h3>
+<p>This fee covers the catering or any taxe which is due per passenger. Enter the amount and the first passenger to be charged.</p>
+</div>
+<div class="section" id="empty-leg-price">
+<h3>Empty leg price<a class="headerlink" href="#empty-leg-price" title="Permalink to this headline">¶</a></h3>
+<p>Choose here how OpenJet calculates the empty legs:</p>
+<ul class="simple">
+<li>No empty Leg</li>
+<li>Simple: for ‘A-B’ trip, create the ‘B-A’ corresponding empty flight</li>
+<li>Base: Create empty legs from/to base before and after commercial leg</li>
+</ul>
+</div>
+<div class="section" id="overnight-price">
+<h3>Overnight price<a class="headerlink" href="#overnight-price" title="Permalink to this headline">¶</a></h3>
+<p>Enter here the price for an overnight and the maximum allowed overnights.
+If the number of overnights is exceeded, empty legs back and from base will be charged.</p>
+</div>
+<div class="section" id="immobilisation-step-one-two">
+<h3>Immobilisation step one/two<a class="headerlink" href="#immobilisation-step-one-two" title="Permalink to this headline">¶</a></h3>
+<p>If the time on ground exceed the step, the fee will be apply.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="taxation.html" class="btn btn-neutral float-right" title="Taxation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="customer-mgt.html" class="btn btn-neutral" title="Customer Management" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015-2018, OpenJet Team.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,20 +1,15 @@
-Openjet documentation
+OpenJet documentation
 =====================
-
-.. image:: /_images/logo.png
-    :alt:   OpenJet Logo
 
 OpenJet is the operating system for business aviation.
 
-Release Notes
--------------
-
-The Developer's guide to leveraging the flexibility of Openjet. Here you will find all the concepts used in the Openjet platform.
+General Principles
+------------------
 
 .. toctree::
     :hidden:
 
-    release-notes/index
+    general/index
 
 Administration
 --------------
@@ -25,3 +20,40 @@ Administration
     administration/index
 
 .. include:: /administration/map.rst.inc
+
+Sales
+-----
+
+.. toctree::
+    :hidden:
+
+    sales/index
+
+.. include:: /sales/map.rst.inc
+
+OPS
+---
+
+.. toctree::
+    :hidden:
+
+    ops/index
+
+.. include:: /ops/map.rst.inc
+
+
+Pilot App
+---------
+
+.. toctree::
+    :hidden:
+
+    pilot-app/index
+
+Release Notes
+-------------
+
+.. toctree::
+    :hidden:
+
+    release-notes/index

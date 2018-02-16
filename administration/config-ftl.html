@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Configuration : Operator &mdash; Openjet  documentation</title>
+  <title>Configuration : FTL/Optimization &mdash; OpenJet  documentation</title>
   
 
   
@@ -37,7 +37,10 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Openjet  documentation" href="../index.html"/>
+    <link rel="top" title="OpenJet  documentation" href="../index.html"/>
+        <link rel="up" title="Administration" href="index.html"/>
+        <link rel="next" title="Notifications" href="notifications.html"/>
+        <link rel="prev" title="Configuration : Operator" href="config-operator.html"/>
     <link rel="stylesheet" type='text/css' href="../_static/css/openjet.css" />
 
 
@@ -83,10 +86,28 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/index.html">General Principles</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="users.html">Manage Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config-operator.html">Configuration : Operator</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuration : FTL/Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notifications.html">Notifications</a></li>
+</ul>
+</li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sales/index.html">Sales</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ops/index.html">OPS</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pilot-app/index.html">Pilot App</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">Release Notes</a></li>
 </ul>
 
             
@@ -101,7 +122,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Openjet</a>
+          <a href="../index.html">OpenJet</a>
         
       </nav>
 
@@ -131,11 +152,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Configuration : Operator</li>
+          <li><a href="index.html">Administration</a> &raquo;</li>
+        
+      <li>Configuration : FTL/Optimization</li>
     
     
     <li class="wy-breadcrumbs-aside">
-        <a href="https://gitlab.openjetlab.fr/backoffice/backoffice/tree/master/docs" target="_blank" class="fa fa-gitlab"> Edit on GitLab</a>
+        <a href="https://github.com/OpenJet/Operator-Manual" target="_blank" class="fa fa-github"> Edit on GitHub</a>
     </li>
 
   </ul>
@@ -146,8 +169,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="configuration-operator">
-<h1>Configuration : Operator<a class="headerlink" href="#configuration-operator" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="configuration-ftl-optimization">
+<h1>Configuration : FTL/Optimization<a class="headerlink" href="#configuration-ftl-optimization" title="Permalink to this headline">¶</a></h1>
+<p>This page is accessible via the menu <strong>Configure &gt; FTL/Optimisation</strong>.</p>
+<p>You can change some parameters in the FTL and optimisation engine here. The parameters are grouped in different sub-sections.</p>
+<img alt="../_images/ftl-config.png" class="align-center" src="../_images/ftl-config.png" />
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">We recommend to not change these parameters without the advice of the OpenJet support team. Contact us at <a class="reference external" href="mailto:support&#37;&#52;&#48;openjet&#46;com">support<span>&#64;</span>openjet<span>&#46;</span>com</a>.</p>
+</div>
 </div>
 
 
@@ -158,12 +188,21 @@
           </div>
           <footer>
   
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="notifications.html" class="btn btn-neutral float-right" title="Notifications" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="config-operator.html" class="btn btn-neutral" title="Configuration : Operator" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2015-2017, OpenJet Team.
+        &copy; Copyright 2015-2018, OpenJet Team.
 
     </p>
   </div>
