@@ -6,7 +6,7 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo', 'sp
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'OpenJet'
-copyright = u'2015-2017, OpenJet Team'
+copyright = u'2015-2018, OpenJet Team'
 man_pages = [
     ('index', 'openjet', u'Openjet Documentation',
      [u'OpenJet Team'], 1)

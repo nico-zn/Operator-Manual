@@ -14,19 +14,19 @@ You will have to provide your CAMP connection details and enter the engine detai
 Adding an aircraft to your fleet
 --------------------------------
 
-Adding an aircraft to your fleet is very easy in OpenJet. Go to the Aircraft -> Aircraft List and click on the Add New button.
+Adding an aircraft to your fleet is very easy in OpenJet. Go to the **Aircraft > Aircraft** List and click on the Add New button.
 
 Complete the mandatory fields on the form:
 
-- Tail Number.
-- Flight Number (should you not use a specific Flight Number for the aircraft, input the tail number again).
-- Aircraft Type (see below for aircraft types management).
-- Back-office color. Avoid red as it could hide some errors or warnings on the flight list.
-- Bases and Default base. You can enter multiple bases if you use multiple commercial bases for one aircraft. Default base is the main base of the aircraft.
-- Select Available if you want your aircraft to be available for quoting.
-- Select Available for auto-booking if you want your aircraft to be available for the optimization system.
+- **Tail Number**.
+- **Flight Number** (should you not use a specific Flight Number for the aircraft, input the tail number again).
+- **Aircraft Type** (see below for aircraft types management).
+- **Back-office color**. Avoid red as it could hide some errors or warnings on the flight list.
+- **Bases** and **Default base**. You can enter multiple bases if you use multiple commercial bases for one aircraft. Default base is the main base of the aircraft.
+- Select **Available** if you want your aircraft to be available for quoting.
+- Select **Available for auto-booking** if you want your aircraft to be available for the optimization system.
 
-Finally, click Save to validate your new aircraft. You have now access to all sections of your aircraft page.
+Finally, click **Save** to validate your new aircraft. You have now access to all sections of your aircraft page.
 
 Documents
 ---------
@@ -47,14 +47,14 @@ You can track de-icing history of your aircraft. De-icings can be entered on thi
 Aircraft Types
 --------------
 
-To add and manage your aircraft types, go to Aircraft -> Company Type List. To add a new type, click on Add New. Choose your type among the list. If the type does not exist yet, contact support@openjet.com to update the list.
+To add and manage your aircraft types, go to **Aircraft > Company Type List**. To add a new type, click on **Add New**. Choose your type among the list. If the type does not exist yet, contact support@openjet.com to update the list.
 
 Once created, you have access to the different sections to customize the type:
 
 Main
 ^^^^
 
-Check Available to allow the creation of an aircraft of this type
+Check **Available** to allow the creation of an aircraft of this type
 
 Characteristics
 ^^^^^^^^^^^^^^^
@@ -79,7 +79,7 @@ You can upload here photos of the type to be displayed on the OpenJet booking we
 Aircraft Scheduling
 -------------------
 
-Go to Aircraft -> Scheduling
+Go to **Aircraft > Scheduling**.
 
 This customizable page allows you display monthly planning of your crews. To add an activity, simply click on a cell and fill out the form.
 

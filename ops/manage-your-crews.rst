@@ -39,7 +39,7 @@ Your crew is now ready for operations.
 Planning
 --------
 
-To access general planning, go to **Crew > Planning overview**. This customizable page allows you display monthly planning of your crews. To add an activity, simply click on a cell and fill out the form. You should always indicate an airport to and airport from, as the optimization system always needs to know the nearest airport for each crew. Use the button add to add another crew to the same activity.
+To access general planning, go to **Crew > Planning overview**. This customizable page allows you display monthly planning of your crews. To add an activity, simply click on a cell and fill out the form. You should always indicate an **airport to** and **airport from**, as the optimization system always needs to know the nearest airport for each crew. Use the button add to add another crew to the same activity.
 
 .. image:: images/crews/addactivity.png
     :align: center
@@ -71,7 +71,7 @@ On a crew’s page, simply click on **Add Airport Qualification** and set an exp
 Expiry dates
 ------------
 
-If you wish to monitor crew’s expiry dates (medical, certificate, recurrent training and checking), you may use the page Crew -> Expiry dates. Create your item in the list and add corresponding dates for each pilot:
+If you wish to monitor crew’s expiry dates (medical, certificate, recurrent training and checking), you may use the page **Crew > Expiry dates**. Create your item in the list and add corresponding dates for each pilot:
 
 .. image:: images/crews/exp-date.png
     :align: center
@@ -94,7 +94,7 @@ On the crew list, the “Status” column displays items about to expire with th
 .. image:: images/crews/expirations2.png
     :align: center
 
-The page Crew -> Expiration dates also gives you an overview of these items and allows you to easily monitor expiration dates.
+The page **Crew > Expiration dates** also gives you an overview of these items and allows you to easily monitor expiration dates.
 
 .. |calendar| image:: images/crews/calendar.png
   :align: middle
