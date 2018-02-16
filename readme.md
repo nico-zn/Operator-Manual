@@ -5,15 +5,15 @@ OpenJet 360 - Operator Manual
 
 This is the online documentation for OpenJet, built with [Sphinx](http://www.sphinx-doc.org/en/master/).
 
-##Contributing
+## Contributing
 
-###Requirements
+### Requirements
 
 ```shell
 pip install -r requirements.txt
 ```
 
-###Buidling the docs locally
+### Buidling the docs locally
 
 ```shell
 sphinx-build -b html . build
